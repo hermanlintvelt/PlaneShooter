@@ -474,6 +474,10 @@ function testStageIntroScreen()
 	screen:show()
 end
 
+initializeGame()
+
+startGame()
+
 --testAchievementConstants()
 --testMockOpenFeint()	
 --mapAndCreateTest()
@@ -485,7 +489,7 @@ end
 --testingMainContext()
 --testTitleScreen()
 --testNewContinueLevelsScreen()
-testStageIntroScreen()
+--testStageIntroScreen()
 
 --[[
 local fortressSheet = sprite.newSpriteSheet("npc_FlyingFortress_sheet.png", 295, 352)
